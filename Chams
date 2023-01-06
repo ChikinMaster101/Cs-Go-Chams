@@ -1,0 +1,10 @@
+
+//Chams
+if(g_Local.iTeam == 2)
+{
+    DrawChams( g_Local.vOrigin, Vector( 0.0f, 0.0f, 0.0f ), Vector( 0.0f, 0.0f, 0.0f ), 0, 255, 0, 255 );
+}
+else if(g_Local.iTeam == 3)
+{
+    DrawChams( g_Local.vOrigin, Vector( 0.0f, 0.0f, 0.0f ), Vector( 0.0f, 0.0f, 0.0f ), 255, 0, 0, 255 );
+}
